@@ -6,6 +6,7 @@ import Concert from './pages/Concert'
 import Home from './pages/Home'
 import Theatre from './pages/Theatre'
 import Login from './pages/Login'
+import Footer from './components/Footer';
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
         <Route path="/Theatre" element={<Theatre/>}></Route>
         <Route path="/Login" element={<Login/>}></Route>
       </Routes>
-  
+      <Footer/>
+      
      </div>
     </>
   )

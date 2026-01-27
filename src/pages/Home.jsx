@@ -4,19 +4,20 @@ import "/src/App.css";
 import { Link } from "react-router-dom";
 import {FaArrowDown }from  "react-icons/fa";
 function Home() {
-    
   return (
     <div>
       <div className="sorting-component">
         <Link to={"/"}>
-          <p>Sıralama <FaArrowDown/></p>
+          <p>Sıralama <FaArrowDown/></p> 
+          </Link>
           <div className="sorting">
             <Link>Öne çıkanlar</Link>
             <Link>En Yeniler</Link>
             <Link>Yakında</Link>
           </div>
-        </Link>
+       
       </div>
+      
       <div className="card-components">
         {tickets.map((ticket) => (
           <Card
