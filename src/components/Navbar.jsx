@@ -51,7 +51,7 @@ function Navbar() {
         </Link>
       </div>
       <div className="hamburger-icon-wrapper">
-        <Hamburger toggled={isOpen} toggle={setOpen} color="#E0EDFF" />
+        <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
       {isOpen && (
         <div className="hamburger-menu">
