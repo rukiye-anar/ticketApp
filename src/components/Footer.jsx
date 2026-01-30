@@ -35,8 +35,6 @@ function Footer() {
             <li><a href="#">İletişim</a></li>
           </ul>
         </div>
-
-        {/* Bölüm 4: Bülten Aboneliği */}
         <div className="footer-section newsletter">
           <h3>Haberdar Ol</h3>
           <p>Yeni etkinliklerden ilk sen haberdar ol!</p>
